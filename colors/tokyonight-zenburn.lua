@@ -1,1 +1,1 @@
-require("tokyonight")._load("moon")
+require("tokyonight")._load("zenburn")

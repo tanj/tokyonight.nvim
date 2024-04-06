@@ -47,7 +47,7 @@ label = { fg = "#8cd0d3" }
 "markup.link.url" = { underline = { style = "line" } }
 "markup.list" = { fg = "#afd8af", modifiers = ["bold"] }
 "markup.normal.completion" = { fg = "#7f9f7f" }
-"markup.normal.hover" = { fg = "#656555" }
+"markup.normal.hover" = { fg = "#fffffd" }
 "markup.raw" = { fg = "#4c7073" }
 "markup.raw.block" = { fg = "#4c7073" }
 "markup.raw.inline" = { bg = "#3f3f3f", fg = "#8cd0d3" }
@@ -73,7 +73,7 @@ type = { fg = "#94bff3" }
 "ui.menu.selected" = { bg = "#898983" }
 "ui.popup" = { bg = "#2b2b2b", fg = "#86a9d2" }
 "ui.selection" = { bg = "bg_highlight" }
-"ui.statusline" = { bg = "#2b2b2b", fg = "#656555" }
+"ui.statusline" = { bg = "#2b2b2b", fg = "#fffffd" }
 "ui.statusline.inactive" = { bg = "#2b2b2b", fg = "#989890" }
 "ui.statusline.normal" = { bg = "blue", fg = "black" }
 "ui.text" = { bg = "#4f4f4f", fg = "#dcdccc" }
@@ -120,10 +120,10 @@ dark5 = "#000000"
 "diff.text" = "#366060"
 error = "#8c5353"
 fg = "#dcdccc"
-fg_dark = "#656555"
+fg_dark = "#fffffd"
 fg_float = "#dcdccc"
 fg_gutter = "#989890"
-fg_sidebar = "#656555"
+fg_sidebar = "#fffffd"
 "git.add" = "#7c9a7c"
 "git.change" = "#88c7ca"
 "git.delete" = "#bb8a8a"

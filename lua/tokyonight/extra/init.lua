@@ -77,6 +77,7 @@ function M.setup()
     night = "",
     day = " Day",
     moon = " Moon",
+    zenburn = " Zenburn",
   }
 
   for extra, info in pairs(M.extras) do

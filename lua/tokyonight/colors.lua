@@ -95,6 +95,53 @@ M.moon = function()
   return ret
 end
 
+M.zenburn = function()
+  local ret = {
+    none = "NONE",
+    bg_dark = "#2b2b2b", --
+    bg = "#4f4f4f", --
+    bg_highlight = "#5f5f5f", --
+    terminal_black = "#3f3f3f", --
+    fg = "#dcdccc", --
+    fg_dark = "#656555", --
+    fg_gutter = "#353535",
+    dark3 = "#545c7e",
+    comment = "#7f9f7f", --
+    dark5 = "#737aa2",
+    blue0 = "#3e68d7", --
+    blue = "#8cd0d3", --
+    cyan = "#93e0e3", --
+    blue1 = "#94bff3", --
+    blue2 = "#ace0e3",
+    blue5 = "#7cb8bb",
+    blue6 = "#5c888b", --
+    blue7 = "#366060",
+    purple = "#c0bed1", --
+    magenta2 = "#bd579c",
+    magenta = "#dc8cc3", --
+    orange = "#dfaf8f", --
+    yellow = "#f0dfaf", --
+    green = "#4f6f4f", --
+    green1 = "#afd8af", --
+    green2 = "#2f4f2f",
+    teal = "#4c7073", --
+    red = "#cc9393", --
+    red1 = "#8c5353", --
+  }
+  ret.comment = util.blend(ret.comment, ret.bg, "bb")
+  ret.git = {
+    change = util.blend(ret.blue, ret.bg, "ee"),
+    add = util.blend(ret.green, ret.bg, "ee"),
+    delete = util.blend(ret.red, ret.bg, "dd"),
+  }
+  ret.gitSigns = {
+    change = util.blend(ret.blue, ret.bg, "66"),
+    add = util.blend(ret.green, ret.bg, "66"),
+    delete = util.blend(ret.red, ret.bg, "aa"),
+  }
+  return ret
+end
+
 ---@return ColorScheme
 function M.setup(opts)
   opts = opts or {}

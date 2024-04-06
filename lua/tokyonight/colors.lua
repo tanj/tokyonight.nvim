@@ -128,7 +128,6 @@ M.zenburn = function()
     red = "#cc9393", --
     red1 = "#8c5353", --
   }
-  ret.comment = util.blend(ret.comment, ret.bg, "bb")
   ret.git = {
     change = util.blend(ret.blue, ret.bg, "ee"),
     add = util.blend(ret.green, ret.bg, "ee"),

@@ -8,5 +8,5 @@
   plus-non-emph-style           = syntax "#4a4f4a"
   plus-emph-style               = syntax "#414f41"
   plus-empty-line-marker-style  = syntax "#4a4f4a"
-  line-numbers-plus-style       = "#4f5c4f"
-  line-numbers-zero-style       = "#353535"
+  line-numbers-plus-style       = "#626f62"
+  line-numbers-zero-style       = "#989890"

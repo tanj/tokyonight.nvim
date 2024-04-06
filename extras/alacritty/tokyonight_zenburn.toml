@@ -11,29 +11,29 @@ foreground = '#dcdccc'
 # Normal colors
 [colors.normal]
 black = '#3f3f3f'
-red = '#cc9393'
-green = '#4f6f4f'
-yellow = '#f0dfaf'
+red = '#94bff3'
+green = '#cc9393'
+yellow = '#8cd0d3'
 blue = '#8cd0d3'
-magenta = '#dc8cc3'
-cyan = '#93e0e3'
+magenta = '#f0dfaf'
+cyan = '#f0dfaf'
 white = '#656555'
 
 # Bright colors
 [colors.bright]
 black = '#3f3f3f'
-red = '#cc9393'
-green = '#4f6f4f'
-yellow = '#f0dfaf'
+red = '#94bff3'
+green = '#cc9393'
+yellow = '#8cd0d3'
 blue = '#8cd0d3'
-magenta = '#dc8cc3'
-cyan = '#93e0e3'
+magenta = '#f0dfaf'
+cyan = '#f0dfaf'
 white = '#dcdccc'
 
 # Indexed Colors
 [[colors.indexed_colors]]
 index = 16
-color = '#dfaf8f'
+color = '#afd8af'
 
 [[colors.indexed_colors]]
 index = 17

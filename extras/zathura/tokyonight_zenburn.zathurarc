@@ -3,9 +3,9 @@
 #
 # Tokyonight color theme
 #
-set notification-error-bg "#cc9393"
+set notification-error-bg "#94bff3"
 set notification-error-fg "#dcdccc"
-set notification-warning-bg "#f0dfaf"
+set notification-warning-bg "#8cd0d3"
 set notification-warning-fg "#3f3f3f"
 set notification-bg "#4f4f4f"
 set notification-fg "#dcdccc"
@@ -23,8 +23,8 @@ set inputbar-bg "#4f4f4f"
 set inputbar-fg "#dcdccc"
 set statusbar-bg "#4f4f4f"
 set statusbar-fg "#dcdccc"
-set highlight-color "#f0dfaf"
-set highlight-active-color "#4f6f4f"
+set highlight-color "#8cd0d3"
+set highlight-active-color "#cc9393"
 set default-bg "#4f4f4f"
 set default-fg "#dcdccc"
 set render-loading true

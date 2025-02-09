@@ -1,0 +1,23 @@
+export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
+  --highlight-line \
+  --info=inline-right \
+  --ansi \
+  --layout=reverse \
+  --border=none \
+  --color=bg+:#4e5c5d \
+  --color=bg:#2b2b2b \
+  --color=border:#86a9d2 \
+  --color=fg:#dcdccc \
+  --color=gutter:#2b2b2b \
+  --color=header:#afd8af \
+  --color=hl+:#94bff3 \
+  --color=hl:#94bff3 \
+  --color=info:#6f6f6f \
+  --color=marker:#d0bf8f \
+  --color=pointer:#d0bf8f \
+  --color=prompt:#94bff3 \
+  --color=query:#dcdccc:regular \
+  --color=scrollbar:#86a9d2 \
+  --color=separator:#afd8af \
+  --color=spinner:#d0bf8f \
+"

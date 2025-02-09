@@ -1,0 +1,36 @@
+style:
+  name: tokyonight_zenburn
+  body:
+    fgColor: '#dcdccc'
+    bgColor: '#2b2b2b'
+    secondaryTextColor: '#fffffd'
+    tertiaryTextColor: '${fg_visual}'
+    borderColor: '#656555'
+  stat_table:
+    keyFgColor: '#8cd0d3'
+    valueFgColor: '#dcdccc'
+    logoColor: '#8cd0d3'
+  proc_table:
+    fgColor: '#8cd0d3'
+    fgWarning: '#8cd0d3'
+    fgPending: '#6f6f6f'
+    fgCompleted: '#cc9393'
+    fgError: '#8c5353'
+    headerFgColor: '#dcdccc'
+  help:
+    fgColor: '#94bff3'
+    keyColor: '#dcdccc'
+    hlColor: '#cc9393'
+    categoryFgColor: '#7cb8bb'
+  dialog:
+    fgColor: '#94bff3'
+    bgColor: '#3f3f3f'
+    contrastBgColor: '#4f4f4f'
+    attentionBgColor: '#8c5353'
+    buttonFgColor: '#3f3f3f'
+    buttonBgColor: '#5f5f5f'
+    buttonFocusFgColor: '#3f3f3f'
+    buttonFocusBgColor: '#8cd0d3'
+    labelFgColor: '#8cd0d3'
+    fieldFgColor: '#3f3f3f'
+    fieldBgColor: '#366060'

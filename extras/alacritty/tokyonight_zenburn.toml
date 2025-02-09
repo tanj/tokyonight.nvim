@@ -1,4 +1,9 @@
+# -----------------------------------------------------------------------------
 # TokyoNight Alacritty Colors
+# Theme: Tokyo Night Zenburn
+# Upstream: https://github.com/folke/tokyonight.nvim/raw/main/extras/alacritty/tokyonight_zenburn.toml
+# -----------------------------------------------------------------------------
+
 # Default colors
 [colors.primary]
 background = '#4f4f4f'
@@ -22,12 +27,12 @@ white = '#fffffd'
 # Bright colors
 [colors.bright]
 black = '#3f3f3f'
-red = '#94bff3'
-green = '#cc9393'
-yellow = '#8cd0d3'
-blue = '#8cd0d3'
-magenta = '#f0dfaf'
-cyan = '#f0dfaf'
+red = '#a4cdff'
+green = '#e29d9d'
+yellow = '#74e3e8'
+blue = '#74e3e8'
+magenta = '#faedcd'
+cyan = '#faedcd'
 white = '#dcdccc'
 
 # Indexed Colors

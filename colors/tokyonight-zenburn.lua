@@ -1,1 +1,1 @@
-require("tokyonight")._load("zenburn")
+require("tokyonight").load({ style = "zenburn" })

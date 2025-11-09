@@ -64,7 +64,7 @@ function M.get(c, opts)
     StatusLine                  = { fg = c.fg_sidebar, bg = c.bg_statusline }, -- status line of current window
     StatusLineNC                = { fg = c.fg_gutter, bg = c.bg_statusline }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine                     = { bg = c.bg_statusline, fg = c.fg_gutter }, -- tab pages line, not active tab page label
-    TabLineFill                 = { bg = c.black }, -- tab pages line, where there are no labels
+    TabLineFill                 = { bg = opts.transparent and c.none or c.black }, -- tab pages line, where there are no labels
     TabLineSel                  = { fg = c.black, bg = c.blue }, -- tab pages line, active tab page label
     Title                       = { fg = c.blue, bold = true }, -- titles for output from ":set all", ":autocmd" etc.
     Visual                      = { bg = c.bg_visual }, -- Visual mode selection
@@ -111,6 +111,7 @@ function M.get(c, opts)
     LspCodeLens                 = { fg = c.comment },
     LspInlayHint                = { bg = Util.blend_bg(c.blue7, 0.1), fg = c.dark3 },
     LspInfoBorder               = { fg = c.border_highlight, bg = c.bg_float },
+    ComplHint                   = { fg = c.terminal_black },
 
     -- diagnostics
     DiagnosticError             = { fg = c.error }, -- Used as the base highlight group. Other Diagnostic highlights link to this by default
@@ -133,11 +134,11 @@ function M.get(c, opts)
     healthWarning               = { fg = c.warning },
 
     -- diff (not needed anymore?)
-    diffAdded                   = { fg = c.git.add },
-    diffRemoved                 = { fg = c.git.delete },
-    diffChanged                 = { fg = c.git.change },
-    diffOldFile                 = { fg = c.yellow },
-    diffNewFile                 = { fg = c.orange },
+    diffAdded                   = { bg = c.diff.add, fg = c.git.add },
+    diffRemoved                 = { bg = c.diff.delete, fg = c.git.delete },
+    diffChanged                 = { bg = c.diff.change, fg = c.git.change },
+    diffOldFile                 = { fg = c.blue1, bg=c.diff.delete },
+    diffNewFile                 = { fg = c.blue1, bg=c.diff.add },
     diffFile                    = { fg = c.blue },
     diffLine                    = { fg = c.comment },
     diffIndexLine               = { fg = c.magenta },

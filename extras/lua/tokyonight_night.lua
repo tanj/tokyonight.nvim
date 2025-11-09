@@ -26,9 +26,9 @@ local colors = {
   dark3 = "#545c7e",
   dark5 = "#737aa2",
   diff = {
-    add = "#20303b",
+    add = "#243e4a",
     change = "#1f2231",
-    delete = "#37222c",
+    delete = "#4a272f",
     text = "#394b70"
   },
   error = "#db4b4b",
@@ -205,34 +205,42 @@ local highlights = {
   ["@markup.environment.name"] = "Type",
   ["@markup.heading"] = "Title",
   ["@markup.heading.1.markdown"] = {
+    bg = "#24293b",
     bold = true,
     fg = "#7aa2f7"
   },
   ["@markup.heading.2.markdown"] = {
+    bg = "#2e2a2d",
     bold = true,
     fg = "#e0af68"
   },
   ["@markup.heading.3.markdown"] = {
+    bg = "#272d2d",
     bold = true,
     fg = "#9ece6a"
   },
   ["@markup.heading.4.markdown"] = {
+    bg = "#1a2b32",
     bold = true,
     fg = "#1abc9c"
   },
   ["@markup.heading.5.markdown"] = {
+    bg = "#2a283b",
     bold = true,
     fg = "#bb9af7"
   },
   ["@markup.heading.6.markdown"] = {
+    bg = "#272538",
     bold = true,
     fg = "#9d7cd8"
   },
   ["@markup.heading.7.markdown"] = {
+    bg = "#31282c",
     bold = true,
     fg = "#ff9e64"
   },
   ["@markup.heading.8.markdown"] = {
+    bg = "#302430",
     bold = true,
     fg = "#f7768e"
   },
@@ -507,6 +515,18 @@ local highlights = {
     bg = "#3b4261",
     fg = "#c0caf5"
   },
+  BufferAlternateADDED = {
+    bg = "#3b4261",
+    fg = "#449dab"
+  },
+  BufferAlternateCHANGED = {
+    bg = "#3b4261",
+    fg = "#6183bb"
+  },
+  BufferAlternateDELETED = {
+    bg = "#3b4261",
+    fg = "#914c54"
+  },
   BufferAlternateERROR = {
     bg = "#3b4261",
     fg = "#db4b4b"
@@ -543,6 +563,18 @@ local highlights = {
     bg = "#1a1b26",
     fg = "#c0caf5"
   },
+  BufferCurrentADDED = {
+    bg = "#1a1b26",
+    fg = "#449dab"
+  },
+  BufferCurrentCHANGED = {
+    bg = "#1a1b26",
+    fg = "#6183bb"
+  },
+  BufferCurrentDELETED = {
+    bg = "#1a1b26",
+    fg = "#914c54"
+  },
   BufferCurrentERROR = {
     bg = "#1a1b26",
     fg = "#db4b4b"
@@ -578,6 +610,18 @@ local highlights = {
   BufferInactive = {
     bg = "#202331",
     fg = "#616789"
+  },
+  BufferInactiveADDED = {
+    bg = "#202331",
+    fg = "#3c8390"
+  },
+  BufferInactiveCHANGED = {
+    bg = "#202331",
+    fg = "#536e9d"
+  },
+  BufferInactiveDELETED = {
+    bg = "#202331",
+    fg = "#79424b"
   },
   BufferInactiveERROR = {
     bg = "#202331",
@@ -629,6 +673,18 @@ local highlights = {
   BufferVisible = {
     bg = "#16161e",
     fg = "#c0caf5"
+  },
+  BufferVisibleADDED = {
+    bg = "#16161e",
+    fg = "#449dab"
+  },
+  BufferVisibleCHANGED = {
+    bg = "#16161e",
+    fg = "#6183bb"
+  },
+  BufferVisibleDELETED = {
+    bg = "#16161e",
+    fg = "#914c54"
   },
   BufferVisibleERROR = {
     bg = "#16161e",
@@ -764,6 +820,9 @@ local highlights = {
     fg = "#565f89",
     italic = true
   },
+  ComplHint = {
+    fg = "#414868"
+  },
   Conceal = {
     fg = "#737aa2"
   },
@@ -897,13 +956,13 @@ local highlights = {
   },
   DiagnosticWarning = "DiagnosticWarn",
   DiffAdd = {
-    bg = "#20303b"
+    bg = "#243e4a"
   },
   DiffChange = {
     bg = "#1f2231"
   },
   DiffDelete = {
-    bg = "#37222c"
+    bg = "#4a272f"
   },
   DiffText = {
     bg = "#394b70"
@@ -1662,7 +1721,7 @@ local highlights = {
     fg = "#bb9af7"
   },
   NeogitDiffAddHighlight = {
-    bg = "#20303b",
+    bg = "#243e4a",
     fg = "#449dab"
   },
   NeogitDiffContextHighlight = {
@@ -1670,7 +1729,7 @@ local highlights = {
     fg = "#a9b1d6"
   },
   NeogitDiffDeleteHighlight = {
-    bg = "#37222c",
+    bg = "#4a272f",
     fg = "#914c54"
   },
   NeogitHunkHeader = {
@@ -2140,6 +2199,18 @@ local highlights = {
     bg = "#3d59a1",
     fg = "#c0caf5"
   },
+  SidekickDiffAdd = "DiffAdd",
+  SidekickDiffContext = "DiffChange",
+  SidekickDiffDelete = "DiffDelete",
+  SidekickSignAdd = {
+    fg = "#449dab"
+  },
+  SidekickSignChange = {
+    fg = "#6183bb"
+  },
+  SidekickSignDelete = {
+    fg = "#914c54"
+  },
   SignColumn = {
     bg = "#1a1b26",
     fg = "#3b4261"
@@ -2168,6 +2239,16 @@ local highlights = {
   },
   SnacksDashboardSpecial = {
     fg = "#9d7cd8"
+  },
+  SnacksFooterDesc = "SnacksProfilerBadgeInfo",
+  SnacksFooterKey = "SnacksProfilerIconInfo",
+  SnacksGhDiffHeader = {
+    bg = "#1c2c38",
+    fg = "#2ac3de"
+  },
+  SnacksGhLabel = {
+    bold = true,
+    fg = "#2ac3de"
   },
   SnacksIndent = {
     fg = "#3b4261",
@@ -2292,7 +2373,6 @@ local highlights = {
     bg = "#16161e",
     fg = "#ff9e64"
   },
-  SnacksPickerFlag = "SnacksProfilerBadgeInfo",
   SnacksPickerInputBorder = {
     bg = "#16161e",
     fg = "#ff9e64"
@@ -2314,6 +2394,7 @@ local highlights = {
   SnacksPickerSelected = {
     fg = "#ff007c"
   },
+  SnacksPickerToggle = "SnacksProfilerBadgeInfo",
   SnacksProfilerBadgeInfo = {
     bg = "#1c2c38",
     fg = "#2ac3de"
@@ -2330,8 +2411,6 @@ local highlights = {
     bg = "#23293c",
     fg = "#545c7e"
   },
-  SnacksScratchDesc = "SnacksProfilerBadgeInfo",
-  SnacksScratchKey = "SnacksProfilerIconInfo",
   SnacksZenIcon = {
     fg = "#9d7cd8"
   },
@@ -2562,9 +2641,11 @@ local highlights = {
     bg = "#16161e"
   },
   diffAdded = {
+    bg = "#243e4a",
     fg = "#449dab"
   },
   diffChanged = {
+    bg = "#1f2231",
     fg = "#6183bb"
   },
   diffFile = {
@@ -2577,12 +2658,15 @@ local highlights = {
     fg = "#565f89"
   },
   diffNewFile = {
-    fg = "#ff9e64"
+    bg = "#243e4a",
+    fg = "#2ac3de"
   },
   diffOldFile = {
-    fg = "#e0af68"
+    bg = "#4a272f",
+    fg = "#2ac3de"
   },
   diffRemoved = {
+    bg = "#4a272f",
     fg = "#914c54"
   },
   dosIniLabel = "@property",

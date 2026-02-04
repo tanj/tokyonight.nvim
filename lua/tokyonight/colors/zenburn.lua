@@ -89,7 +89,7 @@ local ret = {
   red1 = zenburn_red_p2, --
   git = {
     change = util.blend(zenburn_blue, "ee", zenburn_bg_p1),
-    add = util.blend(zenburn_green, "ee", zenburn_bg_p1),
+    add = util.blend(zenburn_green, "66", zenburn_bg_p1),
     delete = util.blend(zenburn_red, "dd", zenburn_bg_p1),
   },
   gitSigns = {

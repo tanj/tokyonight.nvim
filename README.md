@@ -143,6 +143,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [Foot](https://codeberg.org/dnkl/foot) | [extras/foot](extras/foot) |
 | [Fuzzel](https://codeberg.org/dnkl/fuzzel) | [extras/fuzzel](extras/fuzzel) |
 | [Fzf](https://github.com/junegunn/fzf) | [extras/fzf](extras/fzf) |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | [extras/gemini_cli](extras/gemini_cli) |
 | [Ghostty](https://github.com/ghostty-org/ghostty) | [extras/ghostty](extras/ghostty) |
 | [GitUI](https://github.com/extrawurst/gitui) | [extras/gitui](extras/gitui) |
 | [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [extras/gnome_terminal](extras/gnome_terminal) |
@@ -154,6 +155,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [Lazygit](https://github.com/jesseduffield/lazygit) | [extras/lazygit](extras/lazygit) |
 | [Lua Table for testing](https://www.lua.org) | [extras/lua](extras/lua) |
 | [opencode](https://github.com/sst/opencode) | [extras/opencode](extras/opencode) |
+| [pi](https://github.com/badlogic/pi-mono) | [extras/pi](extras/pi) |
 | [Prism](https://prismjs.com) | [extras/prism](extras/prism) |
 | [process-compose](https://f1bonacc1.github.io/process-compose/) | [extras/process_compose](extras/process_compose) |
 | [QTerminal](https://github.com/lxqt/qterminal) | [extras/qterminal](extras/qterminal) |

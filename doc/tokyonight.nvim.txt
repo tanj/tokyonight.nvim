@@ -205,6 +205,8 @@ Extras ~
 
   Fzf                                 extras/fzf
 
+  Gemini CLI                          extras/gemini_cli
+
   Ghostty                             extras/ghostty
 
   GitUI                               extras/gitui
@@ -226,6 +228,8 @@ Extras ~
   Lua Table for testing               extras/lua
 
   opencode                            extras/opencode
+
+  pi                                  extras/pi
 
   Prism                               extras/prism
 

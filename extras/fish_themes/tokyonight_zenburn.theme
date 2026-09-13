@@ -1,26 +1,25 @@
-    # TokyoNight
+# TokyoNight
 
-    # Syntax Highlighting Colors
-    fish_color_normal dcdccc
-    fish_color_command f0dfaf
-    fish_color_keyword f0dfaf
-    fish_color_quote 8cd0d3
-    fish_color_redirection dcdccc
-    fish_color_end afd8af
-    fish_color_option f0dfaf
-    fish_color_error 94bff3
-    fish_color_param e0cf9f
-    fish_color_comment 7f9f7f
-    fish_color_selection --background=4e5c5d
-    fish_color_search_match --background=4e5c5d
-    fish_color_operator cc9393
-    fish_color_escape f0dfaf
-    fish_color_autosuggestion 7f9f7f
+# Syntax Highlighting Colors
+fish_color_normal dcdccc
+fish_color_command dfaf8f
+fish_color_keyword f0dfaf
+fish_color_quote 8cd0d3
+fish_color_redirection dcdccc
+fish_color_end afd8af
+fish_color_option f0dfaf
+fish_color_error 94bff3
+fish_color_param e0cf9f
+fish_color_comment 7f9f7f
+fish_color_selection --background=4e5c5d
+fish_color_search_match --background=4e5c5d
+fish_color_operator cc9393
+fish_color_escape f0dfaf
+fish_color_autosuggestion 7f9f7f
 
-    # Completion Pager Colors
-    fish_pager_color_progress 7f9f7f
-    fish_pager_color_prefix f0dfaf
-    fish_pager_color_completion dcdccc
-    fish_pager_color_description 7f9f7f
-    fish_pager_color_selected_background --background=4e5c5d
-  
+# Completion Pager Colors
+fish_pager_color_progress 7f9f7f
+fish_pager_color_prefix dfaf8f
+fish_pager_color_completion dcdccc
+fish_pager_color_description 7f9f7f
+fish_pager_color_selected_background --background=4e5c5d

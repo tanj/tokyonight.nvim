@@ -1,5 +1,5 @@
-[manager]
-# NOTE: can combined with tmTheme (sublime colorshceme file) for preview code highlight
+[mgr]
+# NOTE: can be combined with tmTheme (sublime colorshceme file) for preview code highlight
 # syntect_theme = "path/to/tmTheme"
 
 cwd = { fg = "#fffffd", italic = true }
@@ -13,24 +13,24 @@ find_keyword  = { fg = "#2b2b2b", bg = "#afd8af", bold = true }
 find_position = { fg = "#ace0e3", bg = "#585e5e", bold = true }
 
 # Marker
-marker_copied   = { fg = "#7cb8bb", bg = "#7cb8bb" }
+marker_copied   = { fg = "#cc9393", bg = "#cc9393" }
 marker_cut      = { fg = "#94bff3", bg = "#94bff3" }
 marker_marked   = { fg = "#f0dfaf", bg = "#f0dfaf" }
 marker_selected = { fg = "#8cd0d3", bg = "#8cd0d3" }
 
-# Tab
-tab_active   = { fg = "#dcdccc", bg = "#5f5f5f" }
-tab_inactive = { fg = "#656555", bg = "#4f4f4f" }
-tab_width    = 1
-
 # Count
-count_copied   = { fg = "#dcdccc", bg = "#2f4f2f" }
-count_cut      = { fg = "#dcdccc", bg = "#8c5353" }
-count_selected = { fg = "#dcdccc", bg = "#4c7073" }
+count_copied   = { fg = "#2b2b2b", bg = "#cc9393" }
+count_cut      = { fg = "#2b2b2b", bg = "#94bff3" }
+count_selected = { fg = "#2b2b2b", bg = "#8cd0d3" }
 
 # Border
 border_symbol = "│"
 border_style  = { fg = "#86a9d2" }
+
+# Tab
+[tabs]
+active   = { fg = "#3f3f3f", bg = "#8cd0d3" }
+inactive = { fg = "#8cd0d3", bg = "#656555" }
 
 [mode]
 normal_main = { fg = "#3f3f3f", bg = "#8cd0d3", bold = true }
@@ -43,14 +43,14 @@ unset_main  = { fg = "#3f3f3f", bg = "#e0cf9f", bold = true }
 unset_alt   = { fg = "#e0cf9f", bg = "#656555" }
 
 [status]
-separator_open    = ""
-separator_close   = ""
-# separator_style = { fg = "#656555", bg = "#656555" }
+overall   = { fg = "#dcdccc", bg = "#2b2b2b" }
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
 
 # Progress
-progress_label  = { fg = "#fffffd", bold = true }
-progress_normal = { fg = "#4f4f4f" }
-progress_error  = { fg = "#94bff3" }
+progress_label  = { fg = "#dcdccc", bold = true }
+progress_normal = { fg = "#4c7073", bg = "#5f5f5f" }
+progress_error  = { fg = "#ecb3b3", bg = "#5f5f5f" }
 
 # Permissions
 perm_type  = { fg = "#8cd0d3" }
@@ -72,26 +72,26 @@ value    = { fg = "#e0cf9f" }
 selected = { bg = "#4e5c5d" }
 
 # Completion
-[completion]
+[cmp]
 border   = { fg = "#ace0e3" }
-active   = { fg = "#dcdccc", bg = "#4e5c5d" }
+active   = { fg = "#dcdccc", bg = "#616154" }
 inactive = { fg = "#dcdccc" }
 
 icon_file    = ""
-icon_folder  = ""
+icon_folder  = ""
 icon_command = ""
 
 # Tasks
 [tasks]
 border  = { fg = "#86a9d2" }
 title   = { fg = "#86a9d2" }
-hovered = { fg = "#dcdccc", bg="#4e5c5d" }
+hovered = { fg = "#dcdccc", bg = "#4e5c5d" }
 
 # Which
 [which]
 cols            = 3
 mask            = { bg = "#2b2b2b" }
-cand            = { fg = "#f0dfaf" }
+cand            = { fg = "#dfaf8f" }
 rest            = { fg = "#8cd0d3" }
 desc            = { fg = "#f0dfaf" }
 separator       = " ➜ "
@@ -116,7 +116,7 @@ title   = { fg = "#86a9d2" }
 [notify]
 title_info  = { fg = "#ace0e3" }
 title_warn  = { fg = "#8cd0d3" }
-title_error = { fg = "#8c5353" }
+title_error = { fg = "#ecb3b3" }
 
 icon_error = ""
 icon_warn = ""
@@ -126,6 +126,7 @@ icon_info = ""
 [help]
 on      = { fg = "#cc9393" }
 run     = { fg = "#f0dfaf" }
+desc    = { fg = "#dfaf8f" }
 hovered = { bg = "#5f5f5f" }
 footer  = { fg = "#dcdccc", bg = "#4f4f4f" }
 
@@ -143,7 +144,7 @@ rules = [
 	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#94bff3" },
 
 	# Documents
-	{ mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#f0dfaf" },
+	{ mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#dfaf8f" },
 
 	# Empty files
 	# { mime = "inode/x-empty", fg = "#94bff3" },
@@ -153,6 +154,7 @@ rules = [
 	{ name = "*", is = "exec"  , fg = "#cc9393" },
 
 	# Fallback
-	{ name = "*/", fg = "#8cd0d3" }
+	{ name = "*/", fg = "#8cd0d3" },
+	{ name = "*", fg = "#dcdccc" }
 ]
     

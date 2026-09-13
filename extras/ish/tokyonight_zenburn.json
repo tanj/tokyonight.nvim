@@ -1,0 +1,28 @@
+{
+  "name": "Tokyo Night Zenburn",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#4f4f4f",
+    "colorPaletteOverrides": [
+      "#3f3f3f",
+      "#94bff3",
+      "#cc9393",
+      "#8cd0d3",
+      "#8cd0d3",
+      "#f0dfaf",
+      "#dfaf8f",
+      "#fffffd",
+      "#3f3f3f",
+      "#a4cdff",
+      "#e29d9d",
+      "#74e3e8",
+      "#74e3e8",
+      "#faedcd",
+      "#efbc9b",
+      "#dcdccc",
+    ],
+    "cursorColor": "#dcdccc",
+    "foregroundColor": "#dcdccc"
+  }
+}
+

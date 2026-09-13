@@ -1,4 +1,4 @@
-attribute = { fg = "#f0dfaf" }
+attribute = { fg = "#dfaf8f" }
 comment = { fg = "#7f9f7f", modifiers = ["italic"] }
 "comment.block.documentation" = { fg = "#8cd0d3" }
 constant = { fg = "#afd8af" }
@@ -14,17 +14,17 @@ constructor = { fg = "#94bff3" }
 "diagnostic.hint" = { underline = { style = "curl" } }
 "diagnostic.info" = { underline = { style = "curl" } }
 "diagnostic.warning" = { underline = { style = "curl" } }
-"diff.delta" = { fg = "#88c7ca" }
+"diff.delta" = { bg = "#4b5252", fg = "#88c7ca" }
 "diff.delta.moved" = { fg = "#8cd0d3" }
-"diff.minus" = { fg = "#bb8a8a" }
-"diff.plus" = { fg = "#7c9a7c" }
-error = { fg = "#8c5353" }
+"diff.minus" = { bg = "#766868", fg = "#bb8a8a" }
+"diff.plus" = { bg = "#474f47", fg = "#626f62" }
+error = { fg = "#ecb3b3" }
 function = { fg = "#8cd0d3" }
 "function.builtin" = { fg = "#94bff3" }
-"function.macro" = { fg = "#f0dfaf" }
+"function.macro" = { fg = "#dfaf8f" }
 "function.method" = { fg = "#8cd0d3" }
-"function.special" = { fg = "#f0dfaf" }
-hint = { fg = "#4c7073" }
+"function.special" = { fg = "#dfaf8f" }
+hint = { fg = "#6ca0a3" }
 info = { fg = "#ace0e3" }
 keyword = { fg = "#e0cf9f", modifiers = ["italic"] }
 "keyword.control" = { fg = "#f0dfaf" }
@@ -32,7 +32,7 @@ keyword = { fg = "#e0cf9f", modifiers = ["italic"] }
 "keyword.control.exception" = { fg = "#f0dfaf" }
 "keyword.control.repeat" = { fg = "#f0dfaf" }
 "keyword.control.return" = { fg = "#e0cf9f", modifiers = ["italic"] }
-"keyword.directive" = { fg = "#f0dfaf" }
+"keyword.directive" = { fg = "#dfaf8f" }
 "keyword.function" = { fg = "#f0dfaf" }
 "keyword.operator" = { fg = "#f0dfaf" }
 label = { fg = "#8cd0d3" }
@@ -41,9 +41,9 @@ label = { fg = "#8cd0d3" }
 "markup.heading.completion" = { bg = "#2b2b2b", fg = "#dcdccc" }
 "markup.heading.hover" = { bg = "#616154" }
 "markup.italic" = { fg = "#dcdccc", modifiers = ["italic"] }
-"markup.link" = { fg = "#4c7073" }
+"markup.link" = { fg = "#6ca0a3" }
 "markup.link.label" = { fg = "#94bff3" }
-"markup.link.text" = { fg = "#4c7073" }
+"markup.link.text" = { fg = "#6ca0a3" }
 "markup.link.url" = { underline = { style = "line" } }
 "markup.list" = { fg = "#7cb8bb" }
 "markup.normal.completion" = { fg = "#7f9f7f" }
@@ -51,7 +51,7 @@ label = { fg = "#8cd0d3" }
 "markup.raw" = { fg = "#cc9393" }
 "markup.raw.inline" = { bg = "#3f3f3f", fg = "#8cd0d3" }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
-namespace = { fg = "#f0dfaf" }
+namespace = { fg = "#dfaf8f" }
 operator = { fg = "#7cb8bb" }
 special = { fg = "#94bff3" }
 string = { fg = "#cc9393" }
@@ -63,6 +63,7 @@ type = { fg = "#94bff3" }
 "type.enum" = { fg = "#94bff3" }
 "type.enum.variant" = { fg = "#afd8af" }
 "ui.background" = { bg = "bg" }
+"ui.bufferline.active" = { bg = "bg_visual", fg = "fg" }
 "ui.cursor" = { bg = "#dcdccc", fg = "#4f4f4f" }
 "ui.cursor.match" = { fg = "#afd8af", modifiers = ["bold"] }
 "ui.linenr" = { fg = "#656555" }
@@ -79,7 +80,7 @@ type = { fg = "#94bff3" }
 "ui.text.focus" = { bg = "#4e5c5d" }
 "ui.text.inactive" = { fg = "#7f9f7f", modifiers = ["italic"] }
 "ui.text.info" = { bg = "#2b2b2b", fg = "#dcdccc" }
-"ui.virtual.inlay-hint" = { bg = "#4f5253", fg = "#4c7073" }
+"ui.virtual.inlay-hint" = { bg = "#525757", fg = "#6ca0a3" }
 "ui.window" = { fg = "#3f3f3f", modifiers = ["bold"] }
 variable = { fg = "#dcdccc" }
 "variable.builtin" = { fg = "#94bff3" }
@@ -109,20 +110,20 @@ blue7 = "#366060"
 border = "#3f3f3f"
 border_highlight = "#86a9d2"
 comment = "#7f9f7f"
-cyan = "#f0dfaf"
+cyan = "#dfaf8f"
 dark3 = "#6f6f6f"
 dark5 = "#000000"
-"diff.add" = "#4a4f4a"
+"diff.add" = "#474f47"
 "diff.change" = "#4b5252"
-"diff.delete" = "#585050"
+"diff.delete" = "#766868"
 "diff.text" = "#366060"
-error = "#8c5353"
+error = "#ecb3b3"
 fg = "#dcdccc"
 fg_dark = "#fffffd"
 fg_float = "#dcdccc"
 fg_gutter = "#656555"
 fg_sidebar = "#fffffd"
-"git.add" = "#7c9a7c"
+"git.add" = "#626f62"
 "git.change" = "#88c7ca"
 "git.delete" = "#bb8a8a"
 "git.ignore" = "#6f6f6f"
@@ -132,7 +133,7 @@ fg_sidebar = "#fffffd"
 green = "#cc9393"
 green1 = "#7cb8bb"
 green2 = "#2f4f2f"
-hint = "#4c7073"
+hint = "#6ca0a3"
 info = "#ace0e3"
 magenta = "#f0dfaf"
 magenta2 = "#d0bf8f"
@@ -141,20 +142,20 @@ purple = "#e0cf9f"
 rainbow = "#8cd0d3"
 "rainbow.2" = "#8cd0d3"
 "rainbow.3" = "#cc9393"
-"rainbow.4" = "#4c7073"
+"rainbow.4" = "#6ca0a3"
 "rainbow.5" = "#f0dfaf"
 "rainbow.6" = "#e0cf9f"
 "rainbow.7" = "#afd8af"
 "rainbow.8" = "#94bff3"
 red = "#94bff3"
-red1 = "#8c5353"
-teal = "#4c7073"
+red1 = "#ecb3b3"
+teal = "#6ca0a3"
 "terminal.black" = "#3f3f3f"
 "terminal.black_bright" = "#3f3f3f"
 "terminal.blue" = "#8cd0d3"
 "terminal.blue_bright" = "#74e3e8"
-"terminal.cyan" = "#f0dfaf"
-"terminal.cyan_bright" = "#faedcd"
+"terminal.cyan" = "#dfaf8f"
+"terminal.cyan_bright" = "#efbc9b"
 "terminal.green" = "#cc9393"
 "terminal.green_bright" = "#e29d9d"
 "terminal.magenta" = "#f0dfaf"
